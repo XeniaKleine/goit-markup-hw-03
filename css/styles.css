@@ -11,20 +11,6 @@ p, h1, h2, ul {
     margin-bottom: 0;
 }
 
-/*
-.header {
-   
-}
-
-.header-nav {
-
-}
-
-.feature {
-
-}
-*/
-
 :root {
     --brand-color: #2196F3;
     --text-color: #000000;
@@ -39,9 +25,7 @@ p, h1, h2, ul {
 .main-nav {
     display: flex;
     align-items: center;
-    
 }
-
 
 .header-logo-web {
     font-family: 'Raleway';
@@ -148,9 +132,6 @@ p, h1, h2, ul {
     text-transform: uppercase;
  }
 
- .title-hero {
-   
- }
  .section-hero {
     background-color: var(--section-color);
     text-align: center;
@@ -229,18 +210,6 @@ p, h1, h2, ul {
     margin-right: 0;
 
 }
-
-/* .container {
-    
-    padding-left: 15px;
-    padding-right: 15px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 94px;
-}
-
-*/
 
 .feature-list p {
     font-family: 'Roboto', sans-serif;
