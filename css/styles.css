@@ -6,7 +6,7 @@
     letter-spacing:0.03em; 
     color: var(--item-color); 
 }
-p, h1, h2, h3, ul {
+p, h1, h2, ul {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -206,8 +206,11 @@ p, h1, h2, h3, ul {
 }
 
 .section-feature {
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 94px;
 }
 
 .feature {
@@ -218,14 +221,17 @@ p, h1, h2, h3, ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    width: 1200px;
 }
 
 .feature-list > .item {
     flex-basis: calc(100% / 4);
+    margin-right: 0;
 
 }
-.container {
-    width: 1200;
+
+/* .container {
+    
     padding-left: 15px;
     padding-right: 15px;
 
@@ -234,10 +240,22 @@ p, h1, h2, h3, ul {
     margin-top: 94px;
 }
 
+*/
+
 .feature-list p {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.feature-item {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--item-color);
+    margin-right: 30px;
 }
 
 .feature-title {
@@ -249,16 +267,6 @@ p, h1, h2, h3, ul {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
-}
-
-.feature-item {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--item-color);
-    margin-right: 30px;
 }
 
 .examples-list { 
@@ -389,34 +397,18 @@ p, h1, h2, h3, ul {
     text-decoration: none;
     color: var(--hero-color);
 }
-/*
 
-.examples {
-
+.projects {
+    display: none;
 }
-
-.examples-list {
-
-}
-.team-list {
-   
-}
-
-.team-item {
-   
-}
-
-.project {
-
-}
-
-.project-list {
-
-}
-*/
 
 .projects-list {
     list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 94px;
+
 }
 
 .list-items {
@@ -429,7 +421,8 @@ p, h1, h2, h3, ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 34px;
+    margin-bottom: 94px;
 }
 
 .project-item {
