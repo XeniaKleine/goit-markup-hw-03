@@ -187,11 +187,10 @@ p, h1, h2, ul {
 }
 
 .section-feature {
-    padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
+    margin-top: 94px; 
 }
 
 .feature {
@@ -202,7 +201,8 @@ p, h1, h2, ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+   
+    padding-left: 215px;
 }
 
 .feature-list > .item {
@@ -243,6 +243,7 @@ p, h1, h2, ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding-left: 215px;
 }
 
 .examples-item {
@@ -269,6 +270,7 @@ p, h1, h2, ul {
     text-decoration: none;
     color: var(--body-color);
     padding-top: 94px;
+    padding-left: 215px;
 }
 
 .team-list {
@@ -278,6 +280,7 @@ p, h1, h2, ul {
 
     margin-top: 50px;
     padding-bottom: 94px;
+    padding-left: 215px;
 }
 
 .team-title {
