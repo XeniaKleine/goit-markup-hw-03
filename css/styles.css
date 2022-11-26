@@ -186,11 +186,20 @@ p, h1, h2, ul {
     color: var(--hero-color);
 }
 
-.section-feature {
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.item-0 {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 94px; 
+}
+
+.item-1 {
+    
 }
 
 .feature {
@@ -388,7 +397,7 @@ p, h1, h2, ul {
     flex-wrap: wrap;
     list-style: none;
 
-    width: 1200px;
+    
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
